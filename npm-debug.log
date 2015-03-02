@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 info shrinkwrap file "C:\\Users\\tnaqash\\advanced-chat\\npm-shrinkwrap.json"
+6 verbose readDependencies returned deps { ejs: '0.8.5',
+6 verbose readDependencies returned deps   express: '3.4.8',
+6 verbose readDependencies returned deps   'node-uuid': '1.4.1',
+6 verbose readDependencies returned deps   nodemon: '1.0.13',
+6 verbose readDependencies returned deps   'socket.io': '0.9.16',
+6 verbose readDependencies returned deps   shrinkwrap: '0.0.3',
+6 verbose readDependencies returned deps   underscore: '1.5.2',
+6 verbose readDependencies returned deps   bower: '1.2.8' }
+7 verbose install where, deps [ 'C:\\Users\\tnaqash\\advanced-chat',
+7 verbose install   [ 'ejs',
+7 verbose install     'express',
+7 verbose install     'node-uuid',
+7 verbose install     'nodemon',
+7 verbose install     'socket.io',
+7 verbose install     'shrinkwrap',
+7 verbose install     'underscore',
+7 verbose install     'bower' ] ]
+8 info preinstall chat@0.0.1
+9 warn package.json shrinkwrap@0.0.3 No README data
+10 info shrinkwrap file "C:\\Users\\tnaqash\\advanced-chat\\npm-shrinkwrap.json"
+11 verbose readDependencies returned deps { ejs: '0.8.5',
+11 verbose readDependencies returned deps   express: '3.4.8',
+11 verbose readDependencies returned deps   'node-uuid': '1.4.1',
+11 verbose readDependencies returned deps   nodemon: '1.0.13',
+11 verbose readDependencies returned deps   'socket.io': '0.9.16',
+11 verbose readDependencies returned deps   shrinkwrap: '0.0.3',
+11 verbose readDependencies returned deps   underscore: '1.5.2',
+11 verbose readDependencies returned deps   bower: '1.2.8' }
+12 verbose already installed skipping ejs@0.8.5 C:\Users\tnaqash\advanced-chat
+13 verbose already installed skipping express@3.4.8 C:\Users\tnaqash\advanced-chat
+14 verbose already installed skipping node-uuid@1.4.1 C:\Users\tnaqash\advanced-chat
+15 verbose already installed skipping nodemon@1.0.13 C:\Users\tnaqash\advanced-chat
+16 verbose already installed skipping socket.io@0.9.16 C:\Users\tnaqash\advanced-chat
+17 verbose already installed skipping shrinkwrap@0.0.3 C:\Users\tnaqash\advanced-chat
+18 verbose already installed skipping underscore@1.5.2 C:\Users\tnaqash\advanced-chat
+19 verbose already installed skipping bower@1.2.8 C:\Users\tnaqash\advanced-chat
+20 silly resolved []
+21 info build C:\Users\tnaqash\advanced-chat
+22 verbose linkStuff [ false, false, false, 'C:\\Users\\tnaqash' ]
+23 info linkStuff chat@0.0.1
+24 verbose linkBins chat@0.0.1
+25 verbose linkMans chat@0.0.1
+26 verbose rebuildBundles chat@0.0.1
+27 verbose rebuildBundles [ '.bin',
+27 verbose rebuildBundles   '.gitkeep',
+27 verbose rebuildBundles   'bower',
+27 verbose rebuildBundles   'ejs',
+27 verbose rebuildBundles   'express',
+27 verbose rebuildBundles   'node-uuid',
+27 verbose rebuildBundles   'nodemon',
+27 verbose rebuildBundles   'shrinkwrap',
+27 verbose rebuildBundles   'socket.io',
+27 verbose rebuildBundles   'underscore' ]
+28 info install chat@0.0.1
+29 info postinstall chat@0.0.1
+30 verbose unsafe-perm in lifecycle true
+31 info chat@0.0.1 Failed to exec postinstall script
+32 error chat@0.0.1 postinstall: `./node_modules/bower/bin/bower install`
+32 error Exit status 1
+33 error Failed at the chat@0.0.1 postinstall script.
+33 error This is most likely a problem with the chat package,
+33 error not with npm itself.
+33 error Tell the author that this fails on your system:
+33 error     ./node_modules/bower/bin/bower install
+33 error You can get their info via:
+33 error     npm owner ls chat
+33 error There is likely additional logging output above.
+34 error System Windows_NT 6.1.7601
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+36 error cwd C:\Users\tnaqash\advanced-chat
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code ELIFECYCLE
+40 verbose exit [ 1, true ]
