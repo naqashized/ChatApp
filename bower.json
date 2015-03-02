@@ -8,9 +8,9 @@
     "font-awesome": "latest"
   },
   "directory": "components",
-  "homepage": "https://github.com/tamaspiros/advanced-chat",
+  
   "authors": [
-    "Tamas Piros <me@tamas.io>"
+    "Tahir Naqash"
   ],
   "main": "server.js",
   "moduleType": [
