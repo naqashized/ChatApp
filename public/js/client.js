@@ -1,7 +1,3 @@
-/* HTML5 magic
-- GeoLocation
-- WebSpeech
-*/
 
 
 /*
